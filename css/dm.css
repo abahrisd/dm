@@ -1,0 +1,24 @@
+.slider-caption.slider-caption-center.slider-text .slider-text__container,
+.slider-caption.slider-caption-center.slider-text .slider-text--thick,
+.slider-caption.slider-caption-center.slider-text .slider-text--thin,
+.slider-caption.slider-caption-center.slider-text .slider-text--medium
+{
+    font-family: Roboto;
+    color: inherit;
+    letter-spacing: 3px;
+}
+.slider-caption.slider-caption-center.slider-text .slider-text__container {
+    font-size: 6rem;
+}
+.slider-caption.slider-caption-center.slider-text .slider-text__subtext {
+    font-size: 2rem;
+}
+.slider-caption.slider-caption-center.slider-text .slider-text--thick {
+    font-weight: 400;
+}
+.slider-caption.slider-caption-center.slider-text .slider-text--thin {
+    font-weight: 100;
+}
+.slider-caption.slider-caption-center.slider-text .slider-text--medium {
+    font-weight: 300;
+}
