@@ -47,10 +47,10 @@
                 <!-- Logo
                 ============================================= -->
                 <div id="logo">
-                    <a href="index.html" class="standard-logo" data-dark-logo="assets/images/logo-dark.png"><img
-                            src="assets/images/logo.png" alt="Canvas Logo"></a>
-                    <a href="index.html" class="retina-logo" data-dark-logo="assets/images/logo-dark@2x.png"><img
-                            src="assets/images/logo@2x.png" alt="Canvas Logo"></a>
+                    <a href="index.php" class="standard-logo" data-dark-logo="assets/images/dm-dark-logo.png"><img
+                            src="assets/images/dm-logo.png" alt="Canvas Logo"></a>
+                    <a href="index.php" class="retina-logo" data-dark-logo="assets/images/dm-dark-logo@2x.png"><img
+                            src="assets/images/dm-logo@2x.png" alt="Canvas Logo"></a>
                 </div><!-- #logo end -->
 
                 <!-- Primary Navigation
@@ -67,7 +67,7 @@
 
                     <!--<div class="recall-button__container">-->
                     <div id="top-search">
-                        <a href="#" class="button button-border button-rounded recall-button"><i class="icon-phone-sign"></i>Заказать звонок</a>
+                        <a href="#recallMe" data-lightbox="inline" class="button button-border button-rounded recall-button"><i class="icon-phone-sign"></i>Заказать звонок</a>
                     </div>
                 </nav><!-- #primary-menu end -->
 
@@ -203,6 +203,13 @@
     <!-- Content
     ============================================= -->
     <section id="content">
+
+        <!--<div class="modal-on-load" data-target="#recallMe"></div>-->
+
+        <!-- Modal -->
+        <div class="modal1 mfp-hide" id="recallMe">
+            [[$recallFormBlock]]
+        </div>
 
         <div class="content-wrap">
 
@@ -387,7 +394,7 @@
                 <!--<div class="col_two_third">-->
                     <div class="col_one_third">
                         <div class="widget clearfix">
-                            <img src="assets/images/footer-widget-logo.png" alt="" class="footer-logo">
+                            <img src="assets/images/dm-footer-logo.png" alt="" class="footer-logo">
                             <span>Двери мигом &copy; 2010 - <span id="curYear"></span></span>
                         </div>
                     </div>
