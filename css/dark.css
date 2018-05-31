@@ -155,8 +155,29 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 #header-wrap:not(.not-dark) #top-search .button.button-border:not(.button-light) {
 	border-color: #333;
 }
-.dark #header-wrap:not(.not-dark) #top-search .button.button-border:not(.button-light) {
-	border-color: rgba(255,255,255,0.4);
+
+/* Кнопка в заголовке*/
+#header.transparent-header #header-wrap:not(.not-dark) #top-search .button.button-border:not(.button-light) {
+	border-color: #333;
+	color: #333;
+}
+#header.transparent-header #header-wrap:not(.not-dark) #top-search .button.button-border:not(.button-light):hover {
+	background-color: #444;
+	color: #FFF;
+}
+
+#header.transparent-header.dark #header-wrap:not(.not-dark) #top-search .button.button-border:not(.button-light) {
+	border-color: #fff;
+	color: #fff;
+}
+#header.transparent-header.dark #header-wrap:not(.not-dark) #top-search .button.button-border:not(.button-light):hover {
+	background-color: #fff;
+	color: #444;
+}
+/* кнопка в заголовке при прокрутке вниз*/
+#header.transparent-header #header-wrap.not-dark #top-search .button.button-border:not(.button-light):hover {
+	/*background-color: #fff;*/
+	color: #fff;
 }
 
 .dark #header.full-header #header-wrap:not(.not-dark) #primary-menu > ul,

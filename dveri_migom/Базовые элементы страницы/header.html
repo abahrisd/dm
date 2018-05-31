@@ -1,0 +1,35 @@
+<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+    <div id="header-wrap">
+
+        <div class="container clearfix">
+
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+            <!-- Logo
+            ============================================= -->
+            <div id="logo">
+                <a href="index.php" class="standard-logo" data-dark-logo="assets/images/dm-dark-logo.png"><img
+                        src="assets/images/dm-logo.png" alt="Canvas Logo"></a>
+                <a href="index.php" class="retina-logo" data-dark-logo="assets/images/dm-dark-logo@2x.png"><img
+                        src="assets/images/dm-logo@2x.png" alt="Canvas Logo"></a>
+            </div><!-- #logo end -->
+
+            <!-- Primary Navigation
+            ============================================= -->
+            <nav id="primary-menu" class="dark">
+                [[pdoMenu?
+                &parents=`-1`
+                &level=`1`
+                &hereClass=`current`
+                ]]
+
+                [[$recallButtonBlock]]
+
+            </nav><!-- #primary-menu end -->
+
+        </div>
+
+    </div>
+
+</header>
