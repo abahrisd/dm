@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="378321ce-6279-4f8f-8a43-58f8592d5a02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dveri_migom/catalogBrandTpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dveri_migom/Базовые элементы страницы/lightHeader.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dveri_migom/Галерея/collectionItemThumb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dveri_migom/Галерея/portfolioThumb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dveri_migom/Шаблоны/Коллекция.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dveri_migom/Шаблоны/Коллекции.html" afterPath="$PROJECT_DIR$/dveri_migom/Шаблоны/Список коллекций.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dveri_migom/collectionItemTpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dm.css" afterPath="$PROJECT_DIR$/css/dm.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dveri_migom/Базовые элементы страницы/header.html" afterPath="$PROJECT_DIR$/dveri_migom/Базовые элементы страницы/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dveri_migom/Шаблоны/Каталог.html" afterPath="$PROJECT_DIR$/dveri_migom/Шаблоны/Каталог.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dveri_migom/Шаблоны/Список коллекций.html" afterPath="$PROJECT_DIR$/dveri_migom/Шаблоны/Список коллекций.html" />
     </list>
     <ignored path="HTML.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +31,8 @@
       <file leaf-file-name="Список коллекций.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Список коллекций.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -47,23 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Коллекция.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Коллекция.html">
+      <file leaf-file-name="collectionItemTpl.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dveri_migom/collectionItemTpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3912543">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.19562715">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <file leaf-file-name="catalogBrandTpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dveri_migom/catalogBrandTpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.461538">
-              <caret line="831" column="34" selection-start-line="761" selection-start-column="20" selection-end-line="831" selection-end-column="34" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -72,51 +63,11 @@
       <file leaf-file-name="Каталог.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Каталог.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="56" column="22" selection-start-line="51" selection-start-column="20" selection-end-line="56" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collectionItemThumb.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dveri_migom/Галерея/collectionItemThumb.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolioThumb.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dveri_migom/Галерея/portfolioThumb.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dm.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/dm.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSScripts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dveri_migom/Базовые элементы страницы/JSScripts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,6 +113,8 @@
         <option value="$PROJECT_DIR$/dveri_migom/Шаблоны/Коллекция.html" />
         <option value="$PROJECT_DIR$/js/plugins/jquery.magnific.js" />
         <option value="$PROJECT_DIR$/js/plugins.js" />
+        <option value="$PROJECT_DIR$/dveri_migom/Шаблоны/Список коллекций.html" />
+        <option value="$PROJECT_DIR$/dveri_migom/collectionItemTpl.html" />
       </list>
     </option>
   </component>
@@ -258,57 +211,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dveri_migom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dveri_migom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Галерея" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,14 +334,20 @@
       <option name="project" value="LOCAL" />
       <updated>1528020307746</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="реализовал шаблон с галереей">
+      <created>1528020340268</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528020340268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081138" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081138" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -477,20 +386,14 @@
     <MESSAGE value="разделил шаблоны на чанки базовых элементов" />
     <MESSAGE value="руссифицировал плагин галереи" />
     <MESSAGE value="поменял base href" />
-    <option name="LAST_COMMIT_MESSAGE" value="поменял base href" />
+    <MESSAGE value="реализовал шаблон с галереей" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализовал шаблон с галереей" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modal-onload-common-height.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.236363">
-          <caret line="750" column="26" selection-start-line="722" selection-start-column="20" selection-end-line="750" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/one-page/images/page/apartment.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -641,14 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dveri_migom/catalogBrandTpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/parallax/parallax-bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -784,16 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Список коллекций.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.461538">
@@ -807,16 +692,6 @@
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Каталог.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,11 +727,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Коллекция.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3912543">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.09781358">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Каталог.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="56" column="22" selection-start-line="51" selection-start-column="20" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dveri_migom/Шаблоны/Список коллекций.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dveri_migom/catalogBrandTpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dveri_migom/collectionItemTpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19562715">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
