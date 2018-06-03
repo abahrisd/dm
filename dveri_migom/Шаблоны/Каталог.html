@@ -10,23 +10,32 @@
     <!-- Header
     ============================================= -->
 
-    [[$header]]
+    [[$lightHeader]]
     <!-- #header end -->
 
     <!-- Page Title
     ============================================= -->
-    <section id="page-title">
+    <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('assets/images/parallax/2.jpg'); background-size: cover; padding: 120px 0;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
+
+        <div class="container clearfix white-bg">
+            <h1>Каталог</h1>
+            <span>Представленные производители</span>
+        </div>
+
+    </section>
+
+    <!--<section id="page-title">
 
         <div class="container clearfix">
             <h1>Каталог</h1>
             <span>Представленные производители</span>
-            <!--<ol class="breadcrumb">
+            &lt;!&ndash;<ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Blog</li>
-            </ol>-->
+            </ol>&ndash;&gt;
         </div>
 
-    </section><!-- #page-title end -->
+    </section>--><!-- #page-title end -->
 
     <!-- Content
     ============================================= -->
@@ -40,66 +49,12 @@
                 ============================================= -->
                 <div id="posts" class="post-grid grid-container clearfix" data-layout="fitRows">
 
-                    <div class="entry clearfix">
-                        <div class="entry-image">
-                            <a href="[[~5]]"><img class="image_fade" src="assets/images/brands/questdoors/qd-logo.png" alt="Questdoors"></a>
-                        </div>
-                        <div class="entry-title">
-                            <h2><a href="blog-single.html">Questdoors</a></h2>
-                        </div>
-                        <div class="entry-content">
-                            <p>Короткое Описание производиетля дверей</p>
-                        </div>
-                    </div>
-
-                    <div class="entry clearfix">
-                        <div class="entry-image">
-                            <a href="assets/images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="assets/images/blog/grid/17.jpg" alt="Questdoors"></a>
-                        </div>
-                        <div class="entry-title">
-                            <h2><a href="blog-single.html">Questdoors</a></h2>
-                        </div>
-                        <div class="entry-content">
-                            <p>Короткое Описание производиетля дверей</p>
-                        </div>
-                    </div>
-
-                    <div class="entry clearfix">
-                        <div class="entry-image">
-                            <a href="assets/images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="assets/images/blog/grid/17.jpg" alt="Questdoors"></a>
-                        </div>
-                        <div class="entry-title">
-                            <h2><a href="blog-single.html">Questdoors</a></h2>
-                        </div>
-                        <div class="entry-content">
-                            <p>Короткое Описание производиетля дверей</p>
-                        </div>
-                    </div>
-
-                    <div class="entry clearfix">
-                        <div class="entry-image">
-                            <a href="assets/images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="assets/images/blog/grid/17.jpg" alt="Questdoors"></a>
-                        </div>
-                        <div class="entry-title">
-                            <h2><a href="blog-single.html">Questdoors</a></h2>
-                        </div>
-                        <div class="entry-content">
-                            <p>Короткое Описание производиетля дверей</p>
-                        </div>
-                    </div>
-
-                    <div class="entry clearfix">
-                        <div class="entry-image">
-                            <a href="assets/images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="assets/images/blog/grid/17.jpg" alt="Questdoors"></a>
-                        </div>
-                        <div class="entry-title">
-                            <h2><a href="blog-single.html">Questdoors</a></h2>
-                        </div>
-                        <div class="entry-content">
-                            <p>Короткое Описание производиетля дверей</p>
-                        </div>
-                    </div>
-
+                    [[pdoResources?
+                    &parents=`[[*id]]`
+                    &depth=`0`
+                    &tpl=`catalogBrandTpl`
+                    &includeTVs=`brandLogo`
+                    ]]
 
                 </div><!-- #posts end -->
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+[[$head]]
+
+<body class="stretched">
+
+<!-- Document Wrapper
+============================================= -->
+<div id="wrapper" class="clearfix">
+
+    <!-- Header
+    ============================================= -->
+
+    [[$lightHeader]]<!-- #header end -->
+
+    <!-- Page Title
+    ============================================= -->
+    <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('[[*collectionHeaderBg]]'); background-size: cover; padding: 120px 0;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
+
+        <div class="container clearfix white-bg">
+            <h1>Коллекция [[*pagetitle]]</h1>
+            <span>[[*longtitle]]</span>
+        </div>
+
+    </section>
+
+    <!--<section id="page-title">
+
+        <div class="container clearfix">
+            <h1>Коллекции Questdoors</h1>
+            <span>Выбирайте из коллекции наиболее подходящей вашему интерьеру</span>
+        </div>
+
+    </section>--><!-- #page-title end -->
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap">
+
+            <div class="container clearfix">
+
+                <div id="portfolio" class="portfolio grid-container clearfix" data-lightbox="gallery">
+
+                    [[!Gallery?
+                        &album=`[[*galleryName]]`
+                        &limit='0'
+                        &containerTpl=`collectionsGalleryTpl`
+                        &imageQuality=`100`
+                        &thumbTpl=`portfolioThumb`
+                        &thumbWidth=`150`
+                        &thumbHeight=`300`
+                        &imageWidth=`1000`
+                        &imageHeight=`1000`
+                    ]]
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- #content end -->
+
+    <!-- Footer
+    ============================================= -->
+
+    [[$footer]]<!-- #footer end -->
+
+</div><!-- #wrapper end -->
+
+<!-- Go To Top
+============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
+
+[[$JSScripts]]
+
+</body>
+</html>

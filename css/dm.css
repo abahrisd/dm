@@ -25,3 +25,25 @@
 
 /* Форма обратного звонка */
 #recallMe .col-padding { padding: 50px; }
+
+/*#page-title.page-title-dark .white-bg h1 {
+    color: #444 !important;
+}
+#page-title.page-title-dark .white-bg span {
+    color: #777;
+}*/
+.gallery-name {
+    color: #444;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.5em;
+    /*border: 1px solid black;*/
+    /*padding: 10px;*/
+    /*background-color: #fffbfc;*/
+    /*position: absolute;*/
+    /*top: 440px;*/
+    /*right: 15px;*/
+}
+.gallery-link {
+    text-align: center;
+}
