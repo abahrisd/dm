@@ -1,0 +1,37 @@
+<div id="top-search">
+    <a href="#recallMe" id="top-search-trigger" data-lightbox="inline">
+        <i class="icon-phone3"></i>
+    </a>
+    <a href="#recallMe" id="top-search-trigger-button" data-lightbox="inline" class="button button-border button-rounded recall-button"><i class="icon-phone-sign"></i>Заказать звонок</a>
+</div>
+
+<!-- Modal -->
+<div class="modal1 mfp-hide" id="recallMe">
+    <div class="block divcenter" style="background-color: #FFF; max-width: 800px;">
+        <div class="row nomargin clearfix">
+            <div class="col-md-6" data-height-xl="600" data-height-lg="600" data-height-md="600" data-height-sm="0" data-height-xs="0" style="background-image: url(assets/images/slider/swiper/dm-slider_5.jpg); background-size: cover;"></div>
+            <div class="col-md-6 col-padding" data-height-xl="600" data-height-lg="600" data-height-md="600" data-height-sm="600" data-height-xs="600">
+                <div>
+
+                    <h4 class="uppercase ls1" style="margin-bottom: 20px;" >Заказать обратный звонок</h4>
+                    <p>Есть вопрос или хотите вызвать замерщика?  Закажите обратный звонок и мы перезвоним вам.</p>
+
+                    [[!AjaxForm?
+                    &snippet=`FormIt`
+                    &form=`measureForm`
+                    &hooks=`recaptchav2,email`
+                    &emailSubject=`Заказ обратного звонка`
+                    &emailTo=`mylovelymail@yandex.ru`
+                    &emailTpl=`measureEmailTpl`
+                    &emailFromName=`Павдоорс.рф`
+                    &validate=`name:required,phone:required,g-recaptcha-response:required`
+                    &validationErrorMessage=`В форме содержатся ошибки!`
+                    &successMessage=`Ваше сообщение успешно отправлено`
+                    ]]
+
+                    <!--<p class="nobottommargin"><small class="t300"><em>* No Credit Card Required</em></small></p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

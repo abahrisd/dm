@@ -1,13 +1,23 @@
 <div class="product clearfix">
     <div class="product-image">
-        <a href="[[~[[+id]]]]"><img src="[[+tv.collectionImage]]" alt="[[+pagetitle]]"></a>
+        <a href="[[~[[+id]]]]">
+            <img src="[[+tv.collectionImage]]" alt="[[+pagetitle]]">
+            <div class="overlay">
+                <div class="overlay-wrap"><i class="icon-line-zoom-in"></i></div>
+            </div>
+        </a>
     </div>
-    <div class="product-desc">
+
+    <span class="dm-collection-name">
+        [[+pagetitle]]
+    </span>
+
+    <!--<div class="product-desc">
         <div class="product-title"><h3><a href="[[~[[+id]]]]">[[+pagetitle]]</a></h3></div>
     </div>
     <div>
         <p>
             [[+description]]
         </p>
-    </div>
+    </div>-->
 </div>

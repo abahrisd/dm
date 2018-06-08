@@ -135,7 +135,8 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #1ABC9C;
+	background: #c51e3a;
+	/*background: #1ABC9C;*/
 	color: #FFF;
 	text-shadow: none;
 }
